@@ -3,28 +3,27 @@ import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/react-splide/css';
 import Card1 from '../../cards/Card1';
 import { useEffect } from 'react';
+import Card2 from '../../cards/Card2';
 
-const Home = ({mode}) => {
+const Home = ({ mode }) => {
     const [perPage, setPerPage] = useState(4);
 
-    useEffect(()=>{
-      if(window.matchMedia("(max-width: 900px)").matches)
-      {
-        setPerPage(2);
-      }
-      if(window.matchMedia("(max-width: 650px)").matches)
-      {
-        setPerPage(1);
-      }
-    },[]);
+    useEffect(() => {
+        if (window.matchMedia("(max-width: 900px)").matches) {
+            setPerPage(2);
+        }
+        if (window.matchMedia("(max-width: 650px)").matches) {
+            setPerPage(1);
+        }
+    }, []);
 
     return (
         <>
-            <div className={mode==="Light" ? 'home-main' : "home-main dark-main"}>
+            <div className={mode === "Light" ? 'home-main' : "home-main dark-main"}>
                 <div className="home1 pb-5">
                     <div className="home11 flex items-center justify-between">
                         <div className="home111">
-                            <img src={mode==="Light" ? "/images/p10.png" : "/images/o1.png"} alt="" />
+                            <img src={mode === "Light" ? "/images/p10.png" : "/images/o1.png"} alt="" />
                         </div>
                         <div className="home112">
                             <p>Our brand was created by a group of friends that share a passion for streetwear and its culture for the people who value quality, sustainability, and individuality.</p>
@@ -38,7 +37,7 @@ const Home = ({mode}) => {
                 <div className="home2">
                     <div className="home21">
                         <div className="home211 w-full">
-                            <img className='w-full' src={mode==='Light' ? "/images/p1.png" : "/images/o3.png"} alt="" />
+                            <img className='w-full' src={mode === 'Light' ? "/images/p1.png" : "/images/o3.png"} alt="" />
                         </div>
                         <div className="home212 relative flex justify-center items-center">
                             <div className="home2121">
@@ -51,6 +50,7 @@ const Home = ({mode}) => {
                         </div>
                     </div>
                 </div>
+
 
                 <div className="home3">
                     <div className="home31">
@@ -146,3 +146,10 @@ const Home = ({mode}) => {
 }
 
 export default Home;
+
+
+/* 
+
+
+
+*/

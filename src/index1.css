@@ -1,0 +1,457 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+* {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.navbar {
+  padding: 2rem 0rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.164);
+}
+.nav-111{
+  margin: 0px 20px;
+}
+.nav-12 p{
+  margin-right: 20px;
+  color: white;
+}
+.nav-12 button{
+  padding: 8px 17px;
+  background-color: #F8931B;
+  border-radius: 39px;
+  margin-right: 20px;
+  color: white;
+}
+.nav-1{
+  padding: 1rem 2.5rem;
+}
+.nav-112{
+  padding: 3px;
+  background-color: white;
+  border-radius: 39px;
+}
+.nav-111-img{
+  padding: 3px;
+}
+.navbar-1{
+  background: #7B20B2;
+}
+.nav-img-active{
+  border-radius: 50%;
+  background-color: #7B20B2;
+}
+.nav-img-active img{
+  filter: invert(1);
+}
+
+.home1 {
+  background: #7B20B2;
+  padding-top: 3rem;
+}
+
+.home11 {
+  padding: 0rem 3rem;
+}
+
+.home111 {
+  width: 30%;
+}
+
+.home112 {
+  width: 40%;
+}
+
+.home113 {
+  width: 30%;
+}
+.home2{
+  background: #7B20B2;
+}
+.home2-card{
+  margin: 0px 10px;
+}
+.home2-card1{
+  top: -10px;
+  left: -10px;
+  border: 1px solid #FFFFFF;
+  border-radius: 36px;
+}
+.home2-card2{
+  border-radius: 36px;
+  background-color: white;
+  padding: 10px;
+}
+.home2-card2 img{
+  padding: 10px;
+}
+.home2-card button{
+  border: 1px solid #262626;
+  border-bottom-left-radius: 36px;
+  border-bottom-right-radius: 36px;
+}
+.home211 .img{
+  bottom: -10px;
+  left: 20%;
+}
+
+.home311 {
+  font-size: 45px;
+}
+
+.home311 p {
+  font-size: 16px;
+}
+
+.home112 p {
+  font-size: 16px;
+}
+
+.grey {
+  color: #D2D2D2;
+}
+
+.cus img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  top: -32px;
+  right: -38px;
+}
+
+.home3-card {
+  position: relative;
+  padding: 10px;
+  margin: 0px 20px;
+}
+
+.home4{
+  border-radius: 94px;
+  background-color: white;
+}
+
+.home411121 {
+  background: #B22023;
+  padding: 18px 35px;
+  border-radius: 36px;
+  z-index: 10;
+}
+
+.home41112 {
+  height: 49px;
+}
+
+.home411120 {
+  height: 100%;
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 36px;
+  top: -10px;
+  left: -15px;
+  z-index: 0;
+}
+
+.home4121 {
+  top: 0;
+  left: 0;
+}
+
+.home4 {
+  padding-bottom: 10rem;
+  padding-top: 11rem;
+}
+
+.footer {
+  padding: 0rem 3rem;
+  padding-top: 3rem;
+  padding-bottom: 4rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.199);
+}
+
+.home2121 {
+  width: 60%;
+}
+
+.home2121 {
+  width: 40%;
+}
+
+.img2 {
+  position: relative;
+  right: -100px;
+  margin-top: 2rem;
+}
+
+.home3 {
+  padding: 4rem 0rem;
+}
+
+.home31 {
+  padding: 0rem 4.6rem;
+}
+
+.home311 h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.home3-card-button button {
+  background: #F8931B;
+  padding: 15px 0px;
+  font-size: 16px;
+  width: 100%;
+}
+
+.home-card0 {
+  position: absolute;
+  height: 94%;
+  top: 21px;
+  left: 0;
+  width: 100%;
+  border: 0.5px solid #0a080881;
+  z-index: -1;
+}
+
+.splide__arrow {
+  display: none !important;
+}
+
+.splide__pagination {
+  display: none !important;
+}
+
+.home411 {
+  width: 50%;
+}
+
+.home4120 {
+  width: 50%;
+}
+
+.home41 {
+  padding: 0rem 3.5rem;
+}
+
+.home412 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.home41111 h3 {
+  font-size: 40px;
+}
+
+.home41111 h2 {
+  font-size: 64px;
+  margin-top: -25px;
+}
+
+.home41111 img {
+  top: 0;
+  right: 0;
+}
+
+.home4121 {
+  top: -50px;
+  left: -58px;
+}
+.home4121 .img21{
+  position: relative;
+  bottom: 30px;
+  right: -10px;
+}
+.mode{
+  position: fixed;
+  top: 45px;
+  right: 15px;
+}
+.mode button{
+  padding: 5px 15px;
+  background-color: #B22023;
+  color: white;
+}
+.dark-navbar{
+  background: #242424;
+  color: white;
+}
+.dark-main .home1{
+  background: #242424;
+  color: white;
+}
+.dark-main .home2{
+  background: #242424;
+  color: white;
+}
+.dark-main .home3{
+  background: #242424;
+  color: white;
+}
+.dark-main .home4{
+  background: #242424;
+  color: white;
+}
+.dark-main .home2121 img{
+  filter: invert(1);
+}
+.dark-main .grey{
+  color: #464646;
+}
+.dark-main .home411120{
+  border: 1px solid white;
+}
+.dark-main .home-card0{
+  border: 1px solid rgb(134, 134, 134);
+}
+.dark-footer{
+  background: #242424;
+}
+
+@media screen and (max-width: 900px) {
+  .home11 {
+    padding: 0rem 1rem;
+    flex-direction: column;
+  }
+  .home111 {
+    width: 70%;
+    margin-bottom: 1rem;
+  }
+  .home111 img{
+    width: 100%
+  }
+  .home112 {
+    width: 100%;
+    text-align: center;
+  }
+  .home113 {
+    width: 60%;
+  }
+  .home113 img{
+    width: 100%;
+  }
+  .home211{
+    padding: 0rem 2rem;
+  }
+  .home212{
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .home2121 {
+    width: 100%;
+  }
+  .home2121 img{
+    margin: auto;
+  }
+  .img2{
+    left: 0;
+  }
+  .home311{
+    text-align: center;
+  }
+  .home31 {
+    padding: 0rem 1rem;
+  }
+  .home2121{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+  .home3 {
+    margin: 2rem 0rem;
+  }
+  .home4 {
+    padding-bottom: 5rem;
+    margin-top: 4rem;
+  }
+  .home1 {
+    padding-top: 1.4rem;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .home411 {
+    width: 100%;
+  }
+  .home412 {
+    width: 100%;
+  }
+  .home4120 {
+    width: 100%;
+  }
+  .home112 p {
+    font-size: 12px;
+  }
+  .home311 h1 {
+    font-size: 40px;
+  }
+  .home311 p {
+    font-size: 12px;
+  }
+  .home41111 h3 {
+    font-size: 35px;
+  }
+  .home41111 h2 {
+    font-size: 45px;
+    margin-top: -18px;
+  }
+  .home4112 p{
+    font-size: 12px;
+  }
+  .home4120 p{
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .home411 {
+    width: 100%;
+  }
+  .home412 {
+    width: 100%;
+  }
+  .home4120 {
+    width: 100%;
+  }
+  .home211 {
+    padding: 0rem 1rem;
+  }
+  .home113 {
+    width: 85%;
+  }
+  .home111 {
+    width: 80%;
+    margin-bottom: 1rem;
+  }
+  .home2122{
+    padding: 0rem 3rem;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .home311 h1 {
+    font-size: 34px;
+  }
+  .home41111 h3 {
+    font-size: 27px;
+  }
+  .home41111 h2 {
+    font-size: 32px;
+    margin-top: -11px;
+  }
+  .home41111 img{
+    width: 74px;
+  }
+  .home411121 {
+    padding: 13px 20px;
+    border-radius: 36px;
+  }
+  .home41112 {
+    height: 41px;
+  }
+  .img2{
+    width: 42%;
+  }
+}
