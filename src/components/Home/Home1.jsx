@@ -19,8 +19,18 @@ const Home = ({ mode }) => {
         }
     }, []);
 
+    const initFunc=()=>{
+        document.querySelector('.init-pop').classList.add('init-pop-active');
+    };
+
     return (
         <>
+            <div className="init-pop">
+                <div className="init-pop1">
+                    <img src="/images/q19.png" alt="" />
+                </div>
+                <button onClick={initFunc} className='init-btn'>START</button>
+            </div>
             <div className={mode === "Light" ? 'home-main' : "home-main dark-main"}>
                 <div className="home1">
                     <div className="home11 flex items-center justify-between">
@@ -234,7 +244,7 @@ const Home = ({ mode }) => {
 
             </div>
         </>
-    )
-}
+    );
+};
 
 export default Home;
