@@ -19,18 +19,42 @@ const Home = ({ mode }) => {
         }
     }, []);
 
-    const initFunc=()=>{
+    const initFunc = () => {
         document.querySelector('.init-pop').classList.add('init-pop-active');
+        const BG=document.querySelector('.bg');
+        BG.style.display='none';
+    };
+
+    const func=(e)=>{
+        const BG=document.querySelector('.bg');
+        BG.style.left = `${e.clientX}px`;
+        BG.style.top = `${e.clientY}px`;
     };
 
     return (
         <>
-            <div className="init-pop">
+            {/* <div className="init-pop">
                 <div className="init-pop1">
                     <img src="/images/q19.png" alt="" />
                 </div>
                 <button onClick={initFunc} className='init-btn'>START</button>
+            </div> */}
+            <div onMouseMove={func} class="container1 init-pop">
+                <div class="hex"></div>
+                <div class="bg"></div>
+                <div className="init-pop1">
+                    <img src="/images/o3.png" alt="" className="pop-img1" />
+                    <div className="init-pop11">
+                        <img src="/images/q21.png" alt="" />
+                        <button onClick={initFunc} className='init-btn'>START</button>
+                    </div>
+                    <div className="flex justify-between items-center absolute bottom-0 w-full init-pop2">
+                        <img src="/images/q6.png" alt="" />
+                        <img src="/images/q5.png" alt="" />
+                    </div>
+                </div>
             </div>
+
             <div className={mode === "Light" ? 'home-main' : "home-main dark-main"}>
                 <div className="home1">
                     <div className="home11 flex items-center justify-between">
@@ -211,7 +235,7 @@ const Home = ({ mode }) => {
                                     <div className="home512111">
                                         <h2>Q3</h2>
                                     </div>
-                                    <div className="home512111">
+                                    <div className="home512111 home512112">
                                         <h2>Q3</h2>
                                     </div>
                                 </div>

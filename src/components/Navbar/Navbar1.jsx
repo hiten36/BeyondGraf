@@ -49,7 +49,7 @@ const Navbar1 = ({mode, setMode}) => {
                     </div>
 
                     <div className="mob-nav items-center hidden">
-                        <img src="/images/q3.png" alt="" />
+                        {/* <img src="/images/q3.png" alt="" /> */}
                         <svg onClick={() => {
                             document.querySelector('.mob-nav1').classList.toggle('mob-active');
                         }} xmlns="http://www.w3.org/2000/svg" width="36" height="36" fill="currentColor" className="mt-1.5 ml-3 bi bi-list" viewBox="0 0 16 16">
