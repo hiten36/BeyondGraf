@@ -44,7 +44,8 @@ const Navbar1 = ({mode, setMode}) => {
                     <div className="nav-12 flex items-center">
                         <NavLink>Home</NavLink>
                         <NavLink>Lore</NavLink>
-                        <button>Download Pitch</button>
+                        <NavLink>Blog</NavLink>
+                        <button>Pitch Deck</button>
                         <img src="/images/q3.png" alt="" />
                     </div>
 
@@ -59,7 +60,8 @@ const Navbar1 = ({mode, setMode}) => {
                     <div className="mob-nav1">
                         <NavLink to="/">Home</NavLink>
                         <NavLink to="/">Lore</NavLink>
-                        <button>Download Pitch</button>
+                        <NavLink to="/">Blog</NavLink>
+                        <button>Pitch Deck</button>
                     </div>
                 </div>
             </nav>

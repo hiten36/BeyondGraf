@@ -16,7 +16,7 @@ const Footer1 = ({mode}) => {
                 </div>
                 <div className="footer-113">
                     <h5>SUBSCRIBE</h5>
-                    <p>Get Beyondgraf new delivered to your phone</p>
+                    <p>Subscribe to our newsletter & get BeyondGraf’s latest update!</p>
                     <div className="foot-1131 relative">
                         <input type="text" placeholder='Email Address' />
                         <button className='absolute'>Subscribe</button>
