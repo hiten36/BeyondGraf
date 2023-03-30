@@ -15,7 +15,7 @@ const Footer1 = ({mode}) => {
                     <p>Cookie policy</p>
                 </div>
                 <div className="footer-113">
-                    <h5>NEWS</h5>
+                    <h5>SUBSCRIBE</h5>
                     <p>Get Beyondgraf new delivered to your phone</p>
                     <div className="foot-1131 relative">
                         <input type="text" placeholder='Email Address' />
